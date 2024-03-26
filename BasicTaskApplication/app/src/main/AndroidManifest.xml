@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.basictaskapplication">
+
+    <!-- Permissões -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Adicione outras permissões conforme necessário para sua aplicação -->
+
+    <!-- Declaração de componentes -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasicTaskApplication"
+        tools:targetApi="31">
+
+        <!-- Atividade principal -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BasicTaskApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Adicione outras atividades, serviços, receptores, etc., conforme necessário para sua aplicação -->
+
+        <!-- Serviço de exemplo -->
+        <service
+            android:name=".ExampleService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- Receiver de exemplo -->
+        <receiver
+            android:name=".ExampleReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Provedor de conteúdo de exemplo -->
+        <provider
+            android:name=".ExampleProvider"
+            android:authorities="${applicationId}.exampleprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- Declaração de serviços, receptores, provedores de conteúdo, etc. -->
+
+    </application>
+
+</manifest>
