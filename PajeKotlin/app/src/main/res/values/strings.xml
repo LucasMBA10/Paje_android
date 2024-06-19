@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FinanceApp</string>
+    <string name="logo_description">Logo FinanFacil</string>
+    <string name="receita">Logo Receita</string>
+    <string name="despesa">Logo Despesa</string>
+    <string name="historico">Histórico</string>
+    <string name="categoria">Categoria</string>
+    <string name="registrar">Registrar</string>
+    <string name="deshboard">Dashboard</string>
+    <string name="seta">Seta</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="piramide">Piramide</string>
+    <string name="tres_barrinhas">Três Barrinhas</string>
+    <string name="orcamento">Orçamento</string>
+    <string name="cor">Cor</string>
+    <string name="rosa">Rosa</string>
+    <string name="roxo">Roxo</string>
+    <string name="amarelo">Amarelo</string>
+    <string name="verde">Verde</string>
+    <string name="preto">Preto</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="branco">Branco</string>
+    <string name="circleverde">Circulo verde</string>
+    <string name="expandir">Expandir</string>
+    <string name="dinheiro">Dinheiro verde</string>
+    <string name="mala">Mala</string>
+    <string name="vaievem">Vai e Vem</string>
+    <string name="grana">Grana</string>
+    <string name="graficovermelho">Gráfico Vermelho</string>
+    <string name="gráficoazul">Gráfico Azul</string>
+    <string name="azulescuro">Azul Escuro</string>
+    <string name="azulclaro">Azul Claro</string>
+</resources>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C87ED">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/abc_vector_test"
+        android:contentDescription="@string/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="143dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="28dp"
+        android:text="Registrar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="415dp"
+        android:layout_height="579dp"
+        android:layout_marginBottom="-40dp"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp"
+                tools:layout_editor_absoluteX="-80dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <!-- Primeiro retângulo -->
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/card_border"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="41dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="-22dp"
+                        android:contentDescription="@string/piramide"
+                        android:src="@drawable/piramide" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="-33dp"
+                        android:text="Nome"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Segundo retângulo -->
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/card_border"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="@string/tres_barrinhas"
+                        android:src="@drawable/tres_barrinhas" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="137dp"
+                        android:layout_marginTop="-20dp"
+                        android:text="Descrição"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Terceiro retângulo -->
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/card_border"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="@string/categoria"
+                        android:src="@drawable/Group" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="135dp"
+                        android:layout_marginTop="-22dp"
+                        android:text="Categorias"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView31"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="290dp"
+                        android:layout_marginTop="-16dp"
+                        android:contentDescription="@string/expandir"
+                        android:src="@drawable/expandir" />
+                </LinearLayout>
+
+                <!-- Quarto retângulo -->
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/card_border"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="22dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="7dp"
+                        android:contentDescription="@string/dinheiro"
+                        android:src="@drawable/dinheiro" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="122dp"
+                        android:layout_marginTop="-26dp"
+                        android:text="Receita/Despesa"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView32"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="290dp"
+                        android:layout_marginTop="-16dp"
+                        android:contentDescription="@string/expandir"
+                        android:src="@drawable/expandir" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageView25"
+                                android:layout_width="27dp"
+                                android:layout_height="25dp"
+                                android:layout_marginStart="45dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="@string/amarelo"
+                                android:src="@drawable/amarelo"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/imageView26"
+                                android:layout_width="25dp"
+                                android:layout_height="23dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="@string/branco"
+                                android:src="@drawable/branco"
+                                app:layout_constraintStart_toEndOf="@+id/imageView25"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/imageView27"
+                                android:layout_width="25dp"
+                                android:layout_height="23dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="@string/circleverde"
+                                android:src="@drawable/circleVerde"
+                                app:layout_constraintStart_toEndOf="@+id/imageView26"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/imageView28"
+                                android:layout_width="25dp"
+                                android:layout_height="23dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="@string/red"
+                                android:src="@drawable/red"
+                                app:layout_constraintStart_toEndOf="@+id/imageView27"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/imageView29"
+                                android:layout_width="27dp"
+                                android:layout_height="25dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="@string/roxo"
+                                android:src="@drawable/roxo"
+                                app:layout_constraintStart_toEndOf="@+id/imageView28"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/imageView30"
+                                android:layout_width="25dp"
+                                android:layout_height="23dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:contentDescription="@string/blue"
+                                android:src="@drawable/blue"
+                                app:layout_constraintStart_toEndOf="@+id/imageView29"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="90dp"
+                    android:layout_height="92dp"
+                    android:layout_marginLeft="145dp"
+                    android:layout_marginTop="70dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="@string/adicionar"
+                    android:src="@drawable/adicionar" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="110dp"
+        android:text="Valor"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="220dp"
+        android:text="R$ 0,00"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
